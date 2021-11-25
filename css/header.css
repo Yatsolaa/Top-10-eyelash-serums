@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 25px 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  max-height: 79px;
+  width: 100%;
+  padding: 20px;
+}
+.header a {
+  text-decoration: none;
+}
+.header a .logo {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  max-height: 79px;
+}
+.header .navigation {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 280px;
+  height: 100vh;
+  text-decoration: none;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px;
+  color: #fff;
+  background-color: #600066;
+  transition: 0.5s all;
+  z-index: 5;
+}
+.header .navigation a {
+  text-decoration: none;
+  color: #fff;
+}
+.header .navigation .navigation__item {
+  list-style-type: none;
+  padding: 10px;
+}
+.header .navigation_active {
+  right: 0px;
+}
+.header .hamburger {
+  display: block;
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  width: 20px;
+  transition: 0.5s all;
+}
+.header .hamburger span {
+  display: block;
+  height: 2px;
+  background-color: #222;
+  margin-top: 4px;
+  transition: 0.5s all;
+}
+.header .hamburger span:first-child {
+  margin-top: 0;
+}
+.header .hamburger_active {
+  right: 290px;
+  transition: 0.5s all;
+}
+.header .hamburger_active span {
+  margin-top: -4px;
+  transition: 0.5s all;
+}
+.header .hamburger_active span:nth-child(1) {
+  transform: rotate(-45deg);
+}
+.header .hamburger_active span:nth-child(2) {
+  display: none;
+}
+.header .hamburger_active span:nth-child(3) {
+  transform: rotate(45deg);
+  margin-top: -2px;
+}
+
+@media (min-width: 576px) {
+  .header {
+    margin-bottom: 20px;
+  }
+  .header a .logo {
+    max-height: 58px;
+    max-width: 248px;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header a .logo {
+    margin: 0;
+  }
+  .header .navigation {
+    position: relative;
+    right: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .header .navigation ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .header .navigation ul .navigation_purple {
+    color: #600066;
+  }
+  .header .navigation a {
+    text-decoration: none;
+    color: black;
+  }
+  .header .hamburger {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .header {
+    padding: 20px;
+  }
+  .header a .logo {
+    width: 230px;
+  }
+}

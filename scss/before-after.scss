@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// fonts
+$font-primary: 'Open Sans Condensed', sans-serif;
+$font-secondary: 'Open Sans', sans-serif;
+
+.container{
+
+    .before-after{
+        margin-top: 50px;
+        padding: 0 20px;
+        font-family: $font-secondary;
+        font-size: 15px;
+        line-height: 25.5px;
+        font-weight: 400;
+        color: rgb(34, 34, 34);
+
+        .before-after__text{
+            h3{
+                font-family: $font-primary;
+                font-size: 24px;
+                font-weight: 700;
+                margin: 20px 0;
+            }
+
+            p{
+                margin-bottom: 24px;
+            }
+        }
+
+        .before-after__photo{
+            margin-top: 30px;
+
+            img{
+                width: 100%;
+            }
+
+            p{
+                text-align: center;
+                padding: 10px 0;
+
+                a{
+                    text-decoration: none;
+                    color: #600066;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px){
+    .container{
+        .before-after{
+            display: flex;
+
+            .before-after__text{
+               padding: 0 15px;
+            }
+
+            .before-after__photo{
+                padding: 0 15px;
+ 
+                img{
+                    height: 220px;
+                    width: auto;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px){
+    .container{
+        .before-after{     
+            .before-after__photo{
+ 
+                img{
+                    height: 290px;
+                    width: auto;
+                }
+            }
+        }
+    }
+}
