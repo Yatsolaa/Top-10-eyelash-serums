@@ -9,10 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/main-section.css">
     <link rel="stylesheet" href="./css/before-after.css">
+    <link rel="stylesheet" href="./css/section.css">
 </head>
 <body>
     
@@ -44,7 +46,9 @@
 
     <section class="main-section">     
 
-        <img class="background" src="./icons/header-bg.jpg" alt="">
+        <div class="img-wpapper">
+            <img class="background" src="./icons/header-bg.jpg" alt="">
+        </div>
 
         <div class="main-section__text grey-layer container">
 
@@ -61,94 +65,119 @@
         <section class="before-after">
 
             <div class="before-after__text">
-
+    
                 <h3>Top 10 Eyelash Serums</h3>
-
+    
                 <p>Today there are lots of ways of enhancing your eyelashes, from buying a great mascara to using a set of false eyelashes or perhaps even having eyelash extensions.  However, all of those methods aren’t the “real deal” which is why eyelash serums are becoming increasingly popular and a big part of the cosmetic and beauty market.  In fact, no self-respecting make-up bag should be without eyelash serum but like any product there’s the good, the bad and the ugly.  We are a team of beauty reviewers, beauty bloggers and cosmetologists and we decided to get together to review the products available on the market today.  The project was no mean feat, it involved 12 months of vigorous testing, all of us selected a variety of different serums to see which worked and which didn’t.</p>
-
+    
                 <p>Before we launch into the eyelash serums we love (and those we’re not so keen on), you need to know more about eyelash serum, what it is and why you want it in your life…</p>
-
+    
             </div>
-
+    
             <div class="before-after__photo">
-
+    
                 <img src="./icons/top-10-eyelash-serums-before-after-results.jpeg" alt="top 10 eyelash serums before after results">
-
+    
                 <p>Results from Winner <a href="#">UKlash</a> after 8 weeks</p>
-
+    
             </div>
-
+    
         </section>
 
-        <h2>Top 10 Eyelash Serums Reviewed</h2>
+    </div>
+
+    <h2 class="main-title">Top 10 Eyelash Serums Reviewed</h2>
+
+    <div class="container">
 
         <section class="product-block">
 
             <div class="product-block-top">
-
+    
                 <div class="product-block__image">
                     <img src="./icons/eyelash-1.jpg" alt="">
                 </div>
-
+    
                 <div class="description">
-                    <h3>1. UKLash Eyelash Serum, 3ml (£37.99/$48)</h3>
-                    <!-- stars -->
-                    <p>(FAVOURITE EYELASH SERUM!)</p>
-                    <img src="./icons/eyelash-1-logo.png" alt="">
-                </div>
-
-            </div>
-
-            <div class="product-block-text">
-
-                <div class="information">
-
-                    <h3 class="information__title">Information</h3>
-
-                    <p class="information__text">The most affordable eyelash serum on this list and one of the newest products to hit the eyelash serum market, it appears that UKLash has really got it spot on with their attractive looking packaging and beautiful bottle. This eyelash serum is remarkably easy to apply and every single one of our panel of reviewers found that this product worked and worked fast.  Ingredients are hypoallergenic, kind to the skin and extremely gentle so there was no sign of irritation whatsoever and the brush glides on really smoothly, distributing the serum carefully and liberally.  Results started to appear within 14 days with maximum results after 6 weeks of use and continued use maintains the results.</p>
-
-                    <p class="information__text">Most of our reviewing panel experienced up to 50% increase in length and thickness, four reviewers stopped wearing mascara altogether (we call that an enormous success).  We’d have to mark this as our absolute favourite and it comes with a manufacturer’s guarantee.  Additionally, UKLash is perfectly suitable for use on eyebrows too, making this serum entirely versatile.</p>
-
-                    <button class="infotmation__button">Buy here</button>
-
-                </div>
-
-                <div class="pros-and-cons">
-
-                    <div class="pros">
-
-                        <h4>Pros:</h4>
-
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-
+                    <h3 class="name">1. UKLash Eyelash Serum, 3ml (£37.99/$48)</h3>
+                    <div class="stars">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
                     </div>
-
+    
+                    <p>(FAVOURITE EYELASH SERUM!)</p>
+    
+                    <img class="product-logo" src="./icons/eyelash-1-logo.png" alt="">
+                </div>
+    
+            </div>
+    
+            <div class="product-block-text">
+    
+                <div class="information">
+    
+                    <h3 class="information__title">Information</h3>
+    
+                    <p class="information__text">The most affordable eyelash serum on this list and one of the newest products to hit the eyelash serum market, it appears that UKLash has really got it spot on with their attractive looking packaging and beautiful bottle. This eyelash serum is remarkably easy to apply and every single one of our panel of reviewers found that this product worked and worked fast.  Ingredients are hypoallergenic, kind to the skin and extremely gentle so there was no sign of irritation whatsoever and the brush glides on really smoothly, distributing the serum carefully and liberally.  Results started to appear within 14 days with maximum results after 6 weeks of use and continued use maintains the results.</p>
+    
+                    <p class="information__text">Most of our reviewing panel experienced up to 50% increase in length and thickness, four reviewers stopped wearing mascara altogether (we call that an enormous success).  We’d have to mark this as our absolute favourite and it comes with a manufacturer’s guarantee.  Additionally, UKLash is perfectly suitable for use on eyebrows too, making this serum entirely versatile.</p>
+    
+                    <button class="infotmation__button">Buy here</button>
+    
+                </div>
+    
+                <div class="pros-and-cons">
+    
+                    <div class="pros">
+    
+                        <h4>Pros:</h4>
+    
+                        <ul>
+                            <li>The most affordable on this list</li>
+    
+                            <li>Good looking, unique packaging and bottle – something you’d love in your make-up bag</li>
+    
+                            <li>Fast results, within just two-three weeks</li>
+    
+                            <li>Cruelty free and suitable for vegans</li>
+    
+                            <li>Great ingredients including nourishing vitamins and peptides</li>
+    
+                            <li>Very easy to use, application once a day</li>
+    
+                            <li>Hypoallergenic ingredients, no eye irritation</li>
+    
+                            <li>Every reviewer experienced excellent growth and volume (up to double length)</li>
+    
+                            <li>Suitable for use on eyebrows too</li>
+    
+                            <li>Can use this serum with eyelash extensions</li>
+    
+                            <li>Money back manufacturer’s guarantee</li>
+                        </ul>
+    
+                    </div>
+    
                     <div class="cons">
                         <h4>Cons:</h4>
                         <ul>
-                            <li></li>
-                            <li></li>
+                            <li>Would have loved a bigger bottle but as the product is inexpensive, this isn’t a major!</li>
+    
+                            <li>Can only buy this product online and not instore</li>
                         </ul>
                     </div>
-
+    
                 </div>
             </div>
-
+    
         </section>
 
     </div>
+
+    <div class="line"></div>
 
 </body>
 <script src="./script.js"></script>
