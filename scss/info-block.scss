@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// fonts
+$font-primary: 'Open Sans Condensed', sans-serif;
+$font-secondary: 'Open Sans', sans-serif;
+
+.container{
+    .information-block{
+        padding: 0 20px;
+        
+        .information-title{
+            margin: 15px 0;
+            font-family: $font-primary;
+            font-size: 22px;
+            font-weight: 700;
+        }
+    
+        .information-text{
+            line-height: 24px;
+            margin-bottom: 24px;
+            font-family: $font-secondary;
+        }
+
+        ul{
+            li{
+                margin-left: 17px;
+            }
+        }
+    }
+}

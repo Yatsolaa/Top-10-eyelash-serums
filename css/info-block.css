@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container .information-block {
+  padding: 0 20px;
+}
+.container .information-block .information-title {
+  margin: 15px 0;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.container .information-block .information-text {
+  line-height: 24px;
+  margin-bottom: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+.container .information-block ul li {
+  margin-left: 17px;
+}
