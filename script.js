@@ -15,3 +15,39 @@ window.addEventListener('DOMContentLoaded', () => {
         })
     })
 })
+
+$(document).ready(function(){
+  $('#to-top').on("click", function (event){
+    event.preventDefault();
+    var id  = $(this).attr('href');
+    var top = $(id).offset().top - 60;
+      console.log($(this));
+    $('body,html').animate({scrollTop: top}, 1000);
+  })
+
+  $(".navigation-block").on("click","a", function (event) {
+    event.preventDefault();
+    var id  = $(this).attr('href'),
+      top = $(id).offset().top - 60;
+    $('body,html').animate({scrollTop: top}, 1000);
+  });
+});
+
+mybutton = document.getElementById("back-to-top");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  console.log('qq');
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    mybutton.style.display = "inline-block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+
+
+
+

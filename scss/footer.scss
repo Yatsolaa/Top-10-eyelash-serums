@@ -52,11 +52,16 @@ $font-secondary: 'Open Sans', sans-serif;
             justify-content: space-between;
 
             .footer-text{
-                margin: 0;
+                margin: 0;   
             }
 
             ul{
                 display: flex;
+                li{
+                    a:hover{
+                        color: #999999;
+                    }
+                }
             }
         }
     }

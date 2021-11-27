@@ -17,12 +17,13 @@
     <link rel="stylesheet" href="./css/section.css">
     <link rel="stylesheet" href="./css/info-block.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/button-and-nav.css">
 </head>
 <body>
     
     <div class="container">
 
-        <header class="header">
+        <header id="top" class="header">
 
             <a href="#">
                 <img class="logo" src="./icons/logo.png" alt="Top 10 Eyelash Serums">
@@ -32,7 +33,7 @@
                 <ul>
                     <a href="#"><li class="navigation__item navigation_purple">Top 10 Eyelash Serums</li></a>
                     
-                    <a href="#"><li class="navigation__item">Contact</li></a>
+                    <a href="#"><li class="navigation__item navigation_contact">Contact</li></a>
                 </ul>
             </nav>
     
@@ -45,6 +46,98 @@
         </header>
 
     </div>
+
+    <nav class="navigation-block">
+        <ul>
+            <a href="#section1" class="navigation-dot">
+                <li>
+                    <div class="hover-block first_sec">
+                        #1
+                    </div>
+                </li>
+            </a>
+
+            <a href="#section2" class="navigation-dot">
+                <li>
+                    <div class="hover-block second-sec">
+                        #2
+                    </div>
+                </li>
+            </a>
+
+            <a href="#section3" class="navigation-dot">
+                <li>
+                    <div class="hover-block third-sec">
+                        #3
+                    </div>
+                </li>
+            </a>
+
+            <a href="#section4" class="navigation-dot">
+                <li>
+                    <div class="hover-block fourth-sec">
+                        #4
+                    </div>
+                </li>
+            </a>
+
+            <a href="#section5" class="navigation-dot">
+                <li>
+                    <div class="hover-block fifth-sec">
+                        #5
+                    </div>
+                </li>
+            </a>
+
+            <a href="#section6" class="navigation-dot">
+                <li>
+                    <div class="hover-block sixth-sec">
+                        #6
+                    </div>
+                </li>
+            </a>
+
+            <a href="#section7" class="navigation-dot">
+                <li>
+                    <div class="hover-block seventh-sec">
+                        #7
+                    </div>
+                </li>
+            </a>
+
+            <a href="#section8" class="navigation-dot">
+                <li>
+                    <div class="hover-block eighth-sec">
+                        #8
+                    </div>
+                </li>
+            </a>
+
+            <a href="#section9" class="navigation-dot">
+                <li>
+                    <div class="hover-block ninth-sec">
+                        #9
+                    </div>
+                </li>
+            </a>
+
+            <a href="#section10" class="navigation-dot">
+                <li>
+                    <div class="hover-block tenth-sec">
+                        #10
+                    </div>
+                </li>
+            </a>
+
+            <a href="#section11" class="navigation-dot">
+                <li>
+                    <div class="hover-block eleventh-sec">
+                        INFORMATION
+                    </div>
+                </li>
+            </a>
+        </ul>
+    </nav>
 
     <section class="main-section">     
 
@@ -92,7 +185,7 @@
 
     <div class="container">
 
-        <section class="product-block">
+        <section id="section1" class="product-block">
 
             <div class="product-block-top">
     
@@ -183,7 +276,7 @@
 
     <div class="container">
 
-        <section class="product-block">
+        <section  id="section2" class="product-block">
 
             <div class="product-block-top">
     
@@ -257,7 +350,7 @@
 
     <div class="container">
 
-        <section class="product-block">
+        <section id="section3" class="product-block">
 
             <div class="product-block-top">
     
@@ -337,7 +430,7 @@
 
     <div class="container">
 
-        <section class="product-block">
+        <section id="section4" class="product-block">
 
             <div class="product-block-top">
     
@@ -417,7 +510,7 @@
 
     <div class="container">
 
-        <section class="product-block">
+        <section id="section5" class="product-block">
 
             <div class="product-block-top">
     
@@ -495,7 +588,7 @@
 
     <div class="container">
 
-        <section class="product-block">
+        <section id="section6" class="product-block">
 
             <div class="product-block-top">
     
@@ -571,7 +664,7 @@
 
     <div class="container">
 
-        <section class="product-block">
+        <section id="section7" class="product-block">
 
             <div class="product-block-top">
     
@@ -651,7 +744,7 @@
 
     <div class="container">
 
-        <section class="product-block">
+        <section  id="section8" class="product-block">
 
             <div class="product-block-top">
     
@@ -729,7 +822,7 @@
 
     <div class="container">
 
-        <section class="product-block">
+        <section id="section9" class="product-block">
 
             <div class="product-block-top">
     
@@ -802,7 +895,7 @@
 
     <div class="container">
 
-        <section class="product-block">
+        <section id="section10" class="product-block">
 
             <div class="product-block-top">
     
@@ -881,7 +974,7 @@
 
     <div class="container">
 
-        <section class="information-block">
+        <section id="section11" class="information-block">
 
             <h3 class="information-title">Mascara</h3>
 
@@ -922,6 +1015,15 @@
 
     </div>
 
+    <a href="#top" id="to-top">
+        <button id="back-to-top" class="back-to-top">
+    
+            <span class="left"></span>
+            <span class="right"></span>
+    
+        </button>
+    </a>
+
     <footer class="footer">
         
         <div class="container footer__content">
@@ -932,11 +1034,11 @@
                 <li><a class="footer-link" href="#">Contact</a></li>
             </ul>
             
-            
         </div>
 
     </footer>
 
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="./script.js"></script>
 </html>

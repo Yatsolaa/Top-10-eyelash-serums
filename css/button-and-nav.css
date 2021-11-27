@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.back-to-top {
+  display: none;
+  background-color: rgba(161, 161, 161, 0.5);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+  border: none;
+  z-index: 1000;
+}
+.back-to-top span {
+  position: absolute;
+  margin: 0 auto;
+  display: inline-block;
+  height: 4px;
+  width: 20px;
+  border-radius: 5px;
+  background-color: #fcffff;
+}
+.back-to-top .left {
+  transform: rotate(-45deg);
+  right: 21px;
+}
+.back-to-top .right {
+  transform: rotate(45deg);
+  left: 21px;
+}
+
+.navigation-block {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .navigation-block {
+    display: block;
+    position: fixed;
+    right: 35px;
+    top: 160px;
+    width: 30px;
+    z-index: 999;
+  }
+  .navigation-block ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .navigation-block ul .navigation-dot .hover-block {
+    /* display: none; */
+    pointer-events: none;
+    height: 12px;
+    opacity: 0;
+    right: 130px;
+  }
+  .navigation-block ul li {
+    position: relative;
+    list-style-type: none;
+    margin: 15px;
+    z-index: 999;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #e3e3e3;
+    transition: all 0.4s;
+  }
+  .navigation-block ul li:hover {
+    background-color: #600066;
+    transition: 0.4s all;
+  }
+  .navigation-block ul li:hover .hover-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 80px;
+    width: 62px;
+    height: 40px;
+    background-color: #600066;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #ffffff;
+    transition: all 0.2s;
+    opacity: 1;
+  }
+  .navigation-block ul li:hover .first_sec {
+    top: 160px;
+  }
+  .navigation-block ul li:hover .second-sec {
+    top: 202px;
+  }
+  .navigation-block ul li:hover .third-sec {
+    top: 244px;
+  }
+  .navigation-block ul li:hover .fourth-sec {
+    top: 286px;
+  }
+  .navigation-block ul li:hover .fifth-sec {
+    top: 328px;
+  }
+  .navigation-block ul li:hover .sixth-sec {
+    top: 370px;
+  }
+  .navigation-block ul li:hover .seventh-sec {
+    top: 412px;
+  }
+  .navigation-block ul li:hover .eighth-sec {
+    top: 454px;
+  }
+  .navigation-block ul li:hover .ninth-sec {
+    top: 496px;
+  }
+  .navigation-block ul li:hover .tenth-sec {
+    top: 538px;
+  }
+  .navigation-block ul li:hover .eleventh-sec {
+    top: 580px;
+    width: 150px;
+  }
+  .navigation-block ul li a {
+    text-decoration: none;
+  }
+}

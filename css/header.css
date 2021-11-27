@@ -129,6 +129,9 @@
     text-decoration: none;
     color: black;
   }
+  .header .navigation .navigation_contact:hover {
+    color: #600066;
+  }
   .header .hamburger {
     display: none;
   }
