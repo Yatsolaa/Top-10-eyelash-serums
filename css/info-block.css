@@ -10,14 +10,28 @@
 .container .information-block .information-title {
   margin: 15px 0;
   font-family: "Open Sans Condensed", sans-serif;
+  line-height: 28px;
   font-size: 22px;
   font-weight: 700;
+  color: #222222;
 }
 .container .information-block .information-text {
+  color: #222222;
+  font-size: 15px;
   line-height: 24px;
+  font-weight: 400;
   margin-bottom: 24px;
   font-family: "Open Sans", sans-serif;
 }
 .container .information-block ul li {
   margin-left: 17px;
+  /* margin: 0 0 0 17px; */
+  color: #222222;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+.container .information-block ul li:last-child {
+  margin-bottom: 24px;
 }

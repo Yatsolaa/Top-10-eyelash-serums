@@ -91,6 +91,7 @@ $font-secondary: 'Open Sans', sans-serif;
                 }
 
                 .infotmation__button{
+                    display: inline-block;
                     padding: 15px 35px;
                     margin-bottom: 20px;
                     border: none;
@@ -98,6 +99,7 @@ $font-secondary: 'Open Sans', sans-serif;
                     background-color: rgb(55, 186, 133);
                     font-size: 14px;
                     font-family: $font-secondary;
+                    text-decoration: none;
                     color: #fff;
                     font-weight: 700;
                 }

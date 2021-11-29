@@ -66,6 +66,7 @@
   margin-bottom: 24px;
 }
 .container .product-block .product-block-text .product-information .infotmation__button {
+  display: inline-block;
   padding: 15px 35px;
   margin-bottom: 20px;
   border: none;
@@ -73,6 +74,7 @@
   background-color: #37ba85;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
+  text-decoration: none;
   color: #fff;
   font-weight: 700;
 }
