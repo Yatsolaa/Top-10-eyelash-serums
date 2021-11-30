@@ -23,6 +23,10 @@ $font-secondary: 'Open Sans', sans-serif;
     position: relative;
     overflow: hidden;
 
+    &_active{
+        overflow: visible;
+    }
+
     a{
         text-decoration: none;
 
@@ -50,7 +54,7 @@ $font-secondary: 'Open Sans', sans-serif;
         padding: 20px;
         color: #fff;
         background-color: #600066;
-        transition: 0.5s all;
+        transition: 0.4s all;
         z-index: 1000;
 
         a{
@@ -74,7 +78,7 @@ $font-secondary: 'Open Sans', sans-serif;
         right: 25px;
         top: 25px;
         width: 20px;
-        transition: 0.5s all;
+        transition: 0.4s all;
 
         span{
             display: block;
@@ -91,6 +95,8 @@ $font-secondary: 'Open Sans', sans-serif;
         &_active{
             right: 290px;
             transition: 0.5s all;
+
+
 
             span{
                 margin-top: -4px;

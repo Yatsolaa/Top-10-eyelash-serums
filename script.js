@@ -2,16 +2,19 @@ window.addEventListener('DOMContentLoaded', () => {
     const menu = document.querySelector('.navigation'),
     menuItem = document.querySelectorAll('.navigation__item'),
     hamburger = document.querySelector('.hamburger');
+    header = document.querySelector('.header');
 
     hamburger.addEventListener('click', () => {
         hamburger.classList.toggle('hamburger_active');
         menu.classList.toggle('navigation_active');
+        header.classList.toggle('header_active');
     });
 
     menuItem.forEach(item => {
         item.addEventListener('click', () => {
             hamburger.classList.toggle('hamburger_active');
             menu.classList.toggle('navigation_active');
+            header.classList.toggle('header_active');
         })
     })
 })
@@ -48,7 +51,7 @@ function scrollFunction() {
 
 //fade out on scroll
 
-var header = document.getElementById('hero-text');
+var heroText = document.getElementById('hero-text');
 
 function fadeOutOnScroll(element) {
   if (!element) {
@@ -71,7 +74,7 @@ function fadeOutOnScroll(element) {
 }
 
 function scrollHandler() {
-  fadeOutOnScroll(header);
+  fadeOutOnScroll(heroText);
 }
 
 window.addEventListener('scroll', scrollHandler);

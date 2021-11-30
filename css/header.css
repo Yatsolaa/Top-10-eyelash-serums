@@ -20,6 +20,9 @@
   position: relative;
   overflow: hidden;
 }
+.header_active {
+  overflow: visible;
+}
 .header a {
   text-decoration: none;
 }
@@ -45,7 +48,7 @@
   padding: 20px;
   color: #fff;
   background-color: #600066;
-  transition: 0.5s all;
+  transition: 0.4s all;
   z-index: 1000;
 }
 .header .navigation a {
@@ -65,7 +68,7 @@
   right: 25px;
   top: 25px;
   width: 20px;
-  transition: 0.5s all;
+  transition: 0.4s all;
 }
 .header .hamburger span {
   display: block;

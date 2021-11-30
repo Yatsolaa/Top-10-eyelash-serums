@@ -101,7 +101,17 @@ $font-secondary: 'Open Sans', sans-serif;
                         opacity: 1;
 
                         span{
+                            position: fixed;
+                            height: 10px;
+                            width: 10px;
+                            margin-left: 59px;
+                            background-color: #600066;
+                            z-index: 999;
+                            transform: rotate(45deg);
+                        }
 
+                        .info-span{
+                            margin-left: 147px;
                         }
                     }
 
