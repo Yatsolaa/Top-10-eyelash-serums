@@ -40,6 +40,8 @@
   height: 250px;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 2;
+  /* 
+  transform: translateY(0px); */
 }
 .main-section .main-section__text .title {
   font-size: 32px;

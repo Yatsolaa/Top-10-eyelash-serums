@@ -78,3 +78,15 @@ function scrollHandler() {
 }
 
 window.addEventListener('scroll', scrollHandler);
+
+// 
+
+
+
+// navigation
+
+$('.nav-item').click(function(e){
+  $('.nav-item').removeClass('nav-item_active');
+  $(this).addClass('nav-item_active');
+  e.preventDefault();
+});

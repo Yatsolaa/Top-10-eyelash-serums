@@ -51,6 +51,10 @@
     display: flex;
     flex-direction: column;
   }
+  .navigation-block ul .navigation-dot {
+    height: 12px;
+    margin: 15px 0;
+  }
   .navigation-block ul .navigation-dot .hover-block {
     /* display: none; */
     pointer-events: none;
@@ -58,7 +62,7 @@
     opacity: 0;
     right: 130px;
   }
-  .navigation-block ul li {
+  .navigation-block ul .nav-item {
     position: relative;
     list-style-type: none;
     margin: 15px;
@@ -69,11 +73,15 @@
     background-color: #e3e3e3;
     transition: all 0.4s;
   }
-  .navigation-block ul li:hover {
+  .navigation-block ul .nav-item_active {
+    background-color: #fff;
+    border: 2px solid #ddd;
+  }
+  .navigation-block ul .nav-item:hover {
     background-color: #600066;
     transition: 0.4s all;
   }
-  .navigation-block ul li:hover .hover-block {
+  .navigation-block ul .nav-item:hover .hover-block {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +98,7 @@
     transition: all 0.2s;
     opacity: 1;
   }
-  .navigation-block ul li:hover .hover-block span {
+  .navigation-block ul .nav-item:hover .hover-block span {
     position: fixed;
     height: 10px;
     width: 10px;
@@ -99,44 +107,44 @@
     z-index: 999;
     transform: rotate(45deg);
   }
-  .navigation-block ul li:hover .hover-block .info-span {
+  .navigation-block ul .nav-item:hover .hover-block .info-span {
     margin-left: 147px;
   }
-  .navigation-block ul li:hover .first_sec {
-    top: 160px;
+  .navigation-block ul .nav-item:hover .first_sec {
+    top: 176px;
   }
-  .navigation-block ul li:hover .second-sec {
-    top: 202px;
+  .navigation-block ul .nav-item:hover .second-sec {
+    top: 218px;
   }
-  .navigation-block ul li:hover .third-sec {
-    top: 244px;
+  .navigation-block ul .nav-item:hover .third-sec {
+    top: 260px;
   }
-  .navigation-block ul li:hover .fourth-sec {
-    top: 286px;
+  .navigation-block ul .nav-item:hover .fourth-sec {
+    top: 302px;
   }
-  .navigation-block ul li:hover .fifth-sec {
-    top: 328px;
+  .navigation-block ul .nav-item:hover .fifth-sec {
+    top: 344px;
   }
-  .navigation-block ul li:hover .sixth-sec {
-    top: 370px;
+  .navigation-block ul .nav-item:hover .sixth-sec {
+    top: 386px;
   }
-  .navigation-block ul li:hover .seventh-sec {
-    top: 412px;
+  .navigation-block ul .nav-item:hover .seventh-sec {
+    top: 428px;
   }
-  .navigation-block ul li:hover .eighth-sec {
-    top: 454px;
+  .navigation-block ul .nav-item:hover .eighth-sec {
+    top: 470px;
   }
-  .navigation-block ul li:hover .ninth-sec {
-    top: 496px;
+  .navigation-block ul .nav-item:hover .ninth-sec {
+    top: 512px;
   }
-  .navigation-block ul li:hover .tenth-sec {
-    top: 538px;
+  .navigation-block ul .nav-item:hover .tenth-sec {
+    top: 554px;
   }
-  .navigation-block ul li:hover .eleventh-sec {
-    top: 580px;
+  .navigation-block ul .nav-item:hover .eleventh-sec {
+    top: 596px;
     width: 150px;
   }
-  .navigation-block ul li a {
+  .navigation-block ul .nav-item a {
     text-decoration: none;
   }
 }

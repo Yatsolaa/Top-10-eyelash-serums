@@ -59,6 +59,8 @@ $font-secondary: 'Open Sans', sans-serif;
             flex-direction: column;
 
             .navigation-dot{
+                height: 12px;
+                margin: 15px 0;
                 .hover-block{
                     /* display: none; */
                     pointer-events: none;
@@ -68,7 +70,7 @@ $font-secondary: 'Open Sans', sans-serif;
                 }
             }
 
-            li{
+            .nav-item{
                 position: relative;
                 list-style-type: none;
                 margin:15px;
@@ -78,6 +80,11 @@ $font-secondary: 'Open Sans', sans-serif;
                 border-radius: 50%;
                 background-color:#e3e3e3;
                 transition: all 0.4s;
+
+                &_active{
+                    background-color: #fff;
+                    border: 2px solid #ddd;
+                }
 
                 &:hover{
                     background-color:#600066;
@@ -116,47 +123,47 @@ $font-secondary: 'Open Sans', sans-serif;
                     }
 
                     .first_sec{
-                        top:160px;
+                        top: 176px;
                     }
 
                     .second-sec{
-                        top:202px;
+                        top:218px;
                     }
 
                     .third-sec{
-                        top:244px;
+                        top:260px;
                     }
 
                     .fourth-sec{
-                        top:286px;
+                        top:302px;
                     }
 
                     .fifth-sec{
-                        top:328px;
+                        top:344px;
                     }
 
                     .sixth-sec{
-                        top:370px;
+                        top:386px;
                     }
 
                     .seventh-sec{
-                        top:412px;
+                        top:428px;
                     }
 
                     .eighth-sec{
-                        top:454px;
+                        top:470px;
                     }
 
                     .ninth-sec{
-                        top:496px;
+                        top:512px;
                     }
 
                     .tenth-sec{
-                        top:538px;
+                        top:554px;
                     }
 
                     .eleventh-sec{
-                        top:580px;
+                        top:596px;
                         width: 150px;
                     }
                 }
