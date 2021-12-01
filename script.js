@@ -27,7 +27,11 @@ $(document).ready(function(){
       console.log($(this));
     $('body,html').animate({scrollTop: top}, 1000);
   })
+});
 
+// nav
+
+$(document).ready(function(){
   $(".navigation-block").on("click","a", function (event) {
     event.preventDefault();
     var id  = $(this).attr('href'),
@@ -35,6 +39,14 @@ $(document).ready(function(){
     $('body,html').animate({scrollTop: top}, 1000);
   });
 });
+
+$('.nav-item').click(function(e){
+  $('.nav-item').removeClass('nav-item_active');
+  $(this).addClass('nav-item_active');
+  e.preventDefault();
+});
+
+//
 
 mybutton = document.getElementById("back-to-top");
 
@@ -83,10 +95,13 @@ window.addEventListener('scroll', scrollHandler);
 
 
 
-// navigation
+// jquery nav
 
-$('.nav-item').click(function(e){
-  $('.nav-item').removeClass('nav-item_active');
-  $(this).addClass('nav-item_active');
-  e.preventDefault();
-});
+/* $('#nav').onePageNav({
+	currentClass: 'nav-item_active',  
+	changeHash: true,
+	scrollSpeed: 750,
+	scrollThreshold: 0.5,
+	easing: 'swing',
+}); */
+

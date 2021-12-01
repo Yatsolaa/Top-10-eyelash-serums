@@ -51,20 +51,10 @@
     display: flex;
     flex-direction: column;
   }
-  .navigation-block ul .navigation-dot {
-    height: 12px;
-    margin: 15px 0;
-  }
-  .navigation-block ul .navigation-dot .hover-block {
-    /* display: none; */
-    pointer-events: none;
-    height: 12px;
-    opacity: 0;
-    right: 130px;
-  }
   .navigation-block ul .nav-item {
     position: relative;
     list-style-type: none;
+    cursor: pointer;
     margin: 15px;
     z-index: 999;
     width: 12px;
@@ -76,6 +66,17 @@
   .navigation-block ul .nav-item_active {
     background-color: #fff;
     border: 2px solid #ddd;
+  }
+  .navigation-block ul .nav-item .navigation-dot {
+    display: block;
+    height: 12px;
+    width: 12px;
+  }
+  .navigation-block ul .nav-item .navigation-dot .hover-block {
+    /* width: 12px;
+    height: 12px; */
+    opacity: 0;
+    right: 130px;
   }
   .navigation-block ul .nav-item:hover {
     background-color: #600066;
@@ -111,37 +112,37 @@
     margin-left: 147px;
   }
   .navigation-block ul .nav-item:hover .first_sec {
-    top: 176px;
+    top: 160px;
   }
   .navigation-block ul .nav-item:hover .second-sec {
-    top: 218px;
+    top: 202px;
   }
   .navigation-block ul .nav-item:hover .third-sec {
-    top: 260px;
+    top: 244px;
   }
   .navigation-block ul .nav-item:hover .fourth-sec {
-    top: 302px;
+    top: 286px;
   }
   .navigation-block ul .nav-item:hover .fifth-sec {
-    top: 344px;
+    top: 328px;
   }
   .navigation-block ul .nav-item:hover .sixth-sec {
-    top: 386px;
+    top: 370px;
   }
   .navigation-block ul .nav-item:hover .seventh-sec {
-    top: 428px;
+    top: 412px;
   }
   .navigation-block ul .nav-item:hover .eighth-sec {
-    top: 470px;
+    top: 454px;
   }
   .navigation-block ul .nav-item:hover .ninth-sec {
-    top: 512px;
+    top: 496px;
   }
   .navigation-block ul .nav-item:hover .tenth-sec {
-    top: 554px;
+    top: 538px;
   }
   .navigation-block ul .nav-item:hover .eleventh-sec {
-    top: 596px;
+    top: 580px;
     width: 150px;
   }
   .navigation-block ul .nav-item a {

@@ -58,21 +58,10 @@ $font-secondary: 'Open Sans', sans-serif;
             display: flex;
             flex-direction: column;
 
-            .navigation-dot{
-                height: 12px;
-                margin: 15px 0;
-                .hover-block{
-                    /* display: none; */
-                    pointer-events: none;
-                    height: 12px;
-                    opacity: 0;
-                    right: 130px;
-                }
-            }
-
             .nav-item{
                 position: relative;
                 list-style-type: none;
+                cursor: pointer;
                 margin:15px;
                 z-index: 999;
                 width: 12px;
@@ -84,6 +73,18 @@ $font-secondary: 'Open Sans', sans-serif;
                 &_active{
                     background-color: #fff;
                     border: 2px solid #ddd;
+                }
+
+                .navigation-dot{
+                    display: block;
+                    height: 12px;
+                    width: 12px;
+                    .hover-block{
+                        /* width: 12px;
+                        height: 12px; */
+                        opacity: 0;
+                        right: 130px;
+                    }
                 }
 
                 &:hover{
@@ -123,47 +124,47 @@ $font-secondary: 'Open Sans', sans-serif;
                     }
 
                     .first_sec{
-                        top: 176px;
+                        top: 160px;
                     }
 
                     .second-sec{
-                        top:218px;
+                        top:202px;
                     }
 
                     .third-sec{
-                        top:260px;
+                        top:244px;
                     }
 
                     .fourth-sec{
-                        top:302px;
+                        top:286px;
                     }
 
                     .fifth-sec{
-                        top:344px;
+                        top:328px;
                     }
 
                     .sixth-sec{
-                        top:386px;
+                        top:370px;
                     }
 
                     .seventh-sec{
-                        top:428px;
+                        top:412px;
                     }
 
                     .eighth-sec{
-                        top:470px;
+                        top:454px;
                     }
 
                     .ninth-sec{
-                        top:512px;
+                        top:496px;
                     }
 
                     .tenth-sec{
-                        top:554px;
+                        top:538px;
                     }
 
                     .eleventh-sec{
-                        top:596px;
+                        top:580px;
                         width: 150px;
                     }
                 }
