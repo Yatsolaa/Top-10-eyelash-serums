@@ -39,11 +39,12 @@
   margin-bottom: 20px;
 }
 .container .product-block .product-block-top .description .stars {
-  margin-bottom: 24px;
+  padding-left: 20px;
 }
 .container .product-block .product-block-top .description .stars span {
-  width: 30px;
-  height: 30px;
+  height: 0px;
+  width: 40px;
+  transform: scale(2);
 }
 .container .product-block .product-block-top .description .stars .checked {
   color: gold;

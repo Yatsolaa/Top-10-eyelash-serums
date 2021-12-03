@@ -31,7 +31,7 @@ $(document).ready(function(){
 
 // nav
 
-$(document).ready(function(){
+/* $(document).ready(function(){
   $(".navigation-block").on("click","a", function (event) {
     event.preventDefault();
     var id  = $(this).attr('href'),
@@ -44,7 +44,7 @@ $('.nav-item').click(function(e){
   $('.nav-item').removeClass('nav-item_active');
   $(this).addClass('nav-item_active');
   e.preventDefault();
-});
+}); */
 
 //
 
@@ -91,17 +91,13 @@ function scrollHandler() {
 
 window.addEventListener('scroll', scrollHandler);
 
-// 
-
-
-
 // jquery nav
 
-/* $('#nav').onePageNav({
+$('#nav').onePageNav({
 	currentClass: 'nav-item_active',  
 	changeHash: true,
 	scrollSpeed: 750,
 	scrollThreshold: 0.5,
 	easing: 'swing',
-}); */
+});
 
